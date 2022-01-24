@@ -1,0 +1,17 @@
+require 'rubygems'
+require 'cucumber'
+require 'cucumber/rake/task'
+require 'rspec/core/rake_task'
+
+module RakeProfileHelper
+
+  Cucumber::Rake::Task.new(:add_user, 'Run features with add_user task') do |t|
+    t.profile = 'add_user'
+  end
+  Cucumber::Rake::Task.new(:delete_user, 'Run features with delete_user task') do |t|
+    t.profile = 'delete_user'
+  end
+  Cucumber::Rake::Task.new(:delete_user, 'Run features with all_scenarios task') do |t|
+    t.profile = 'all_scenarios'
+  end
+end
