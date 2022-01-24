@@ -19,3 +19,11 @@ Execute the following commands which installs ruby and other dependent gems for 
 This command executes all the scenarios in the features folder.
 
 **$ cucumber features**
+
+Below command executes the scenarios based on the rake task tags
+
+**cucumber features -t @all_scenarios**  - This command executes all the scenarios tagges as '@all_scenarios'
+
+**cucumber features -t @add_user**  - This command executes all the scenarios tagges as '@add_user'
+
+**cucumber features -t @delete_user**  - This command executes all the scenarios tagges as '@add_user'
