@@ -1,5 +1,7 @@
+@all_scenarios
 Feature: Validate the user can be added and deleted on way2 automation page
 
+@add_user
   Scenario: Validate new user can be added to way2 automation page
     Given the user navigates to the way2 automation page
     And the user clicks the add user
@@ -7,7 +9,8 @@ Feature: Validate the user can be added and deleted on way2 automation page
     And the user fills the add user modal dialogue page with josh healen data
     When the user clicks the save
     Then the user validates that josh healen data has been added to the table
-
+    
+ @delete_user
   Scenario: Validate User Name: novak can be deleted from the table
     Given the user navigates to the way2 automation page
     And the user clicks on edit button of novak user
