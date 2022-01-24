@@ -1,0 +1,19 @@
+random_data:
+  first_name: <%= Faker::Name.first_name %>
+  last_name: <%= Faker::Name.last_name %>
+  user_name: <%= Faker::Alphanumeric.alpha(number:10) %>
+  password: '12345'
+  email: <%= Faker::Alphanumeric.alpha(number:10) + '@gmail.com' %>
+  cell_phone: <%= Faker::PhoneNumber.cell_phone %>
+  role: 'Sales Team'
+  company_aaa: 'selected'
+
+josh_healen_data:
+  first_name: 'josh'
+  last_name: 'healen'
+  user_name: 'josh.healen123'
+  password: '12345'
+  email: 'josh.healen123@gmail.com'
+  cell_phone: '453-123-9807'
+  role: 'Sales Team'
+  company_aaa: 'selected'

@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'watir'
+gem 'cucumber'
+gem 'page-object'
+gem 'irb'
+gem 'faker'
+gem 'rspec'
