@@ -1,1 +1,3 @@
-run: --format pretty --tags '@run and not (@wip or @manual)'
+run: --format pretty --tags '@add_user and not (@wip or @manual)'
+run: --format pretty --tags '@delete_user and not (@wip or @manual)'
+run: --format pretty --tags '@all_scenarios and not (@wip or @manual)'
