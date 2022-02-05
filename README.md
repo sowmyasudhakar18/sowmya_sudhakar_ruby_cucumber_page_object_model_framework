@@ -1,4 +1,4 @@
-**Sowmya_sudhakar_teladoc_challenge**
+**Sowmya_sudhakar_ruby_cucumber_page_object_framework**
 
 This framework is designed to add and delete users from https://www.way2automation.com/angularjs-protractor/webtables/
 
